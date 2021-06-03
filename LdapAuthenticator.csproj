@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <AssemblyName>Kevlatus.Ldap</AssemblyName>
+        <RootNamespace>Kevlatus.Ldap</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>0.0.2</PackageVersion>
+        <Title>LDAP Authenticator</Title>
+        <Authors>kevlatus</Authors>
+        <PackageLicenseUrl>https://github.com/kevlatus/LdapAuthenticator/blob/main/LICENSE</PackageLicenseUrl>
+        <PackageProjectUrl>https://github.com/kevlatus/LdapAuthenticator</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/kevlatus/LdapAuthenticator</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Novell.Directory.Ldap.NETStandard" Version="3.6.0" />
+    </ItemGroup>
+
+</Project>
